@@ -99,8 +99,7 @@ Once your environment is ready, you can send the malicious payload to trigger th
     
 3. **Analyze the Response**  
     After sending the request, if the exploit succeeds, the server will respond with the contents of your `.env.local` file (or any sensitive data in the environment variables). This confirms the attacker’s access to confidential data.
-
-![[poc.png]]
+![Response](./poc.png)
 ---
 
 ### **Explaining the Malicious Payload**
